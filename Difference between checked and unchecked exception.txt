@@ -1,0 +1,28 @@
+The Difference Between Checked and UnChecked Expressions :
+Checked Exceptions :-
+1. They occur at compile time.
+
+2. The compiler checks for a checked exception.
+
+3. These exceptions can be handled at the compilation time.
+
+4. It is a sub-class of the exception class.
+
+5. The JVM requires that the exception be caught and handled.
+
+6. Example of Checked exception - File Not Found Exception.
+Unchecked Exceptions :-
+1. These exceptions occur at runtime.
+
+2. The compiler doesn’t check for these kinds of exceptions.
+
+3. These kinds of exceptions can’t be caught or handled during compilation time.
+
+4. This is because the exceptions are generated due to the mistakes in the program.
+
+5. These are not a part of the ‘Exception’ class since they are runtime exceptions.
+
+6. The JVM doesn’t require the exception to be caught and handled.
+
+7. Example of Unchecked Exceptions- No Such Element Exception.
+
