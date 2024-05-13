@@ -1,0 +1,12 @@
+Java Access Modifiers :-
+In Java, there are four access modifiers that determine the accessibility of classes, methods, and variables:
+•	Public: When a Class, Method or Variable is Declared as a Public, it can be accessed from anywhere(Globally), both within the same package and from outside of the Package also can’t be accessed. 
+•	Private:  When a Class, Method or Variable is Declared as Private, it can only be accessed within the same class. Other classes, even those in the same package, cannot access it.
+•	Default: If the Variable, Method or Class with no access modifier (also known as Default) can only be accessed by classes within the same package and but not out from the other Packages.
+•	Protected:  When a Class is marked as Protected, it can be accessed within the same class, by sub-classes (in the same or different Package), and by other classes in the same package. 
+In Simple terms :
+1.) Public: Access from anywhere(Globally)..
+2.) Private: Access only within the same class.
+3.) Protected: Accessible within the same class, by sub-classes, and within the same package.
+4.) Default: Accessible within the same package, but not from outside.
+
