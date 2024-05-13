@@ -1,0 +1,15 @@
+The Difference Between Exception and Error
+Exception: 
+1.	Exceptions are occurred in unexpected situations that occur during the execution of a program. 
+2.	These Situation can be caused by external factors, such as User Input or Internal factors, such as coding errors. 
+3.	When an Exception occurs, the Program is interrupted and an error message is displayed. 
+4.	The purpose of Exceptions is to provide a way for the program to gracefully handle unexpected events and prevent the program from crashing.
+5.	Example like “Null Pointer Exception”, “File Not Found Exception” etc…,
+
+Error
+1.	An error, is a mistake or problem in the code that prevents the program from Executing as intended. 
+2.	Errors are typically caused by Syntax Errors or logical errors in the code. Unlike Exceptions, Errors are not meant to be handled by the program. 
+3.	Instead, the programmer must identify and fix the error in the code in order for the program to run correctly.
+4.	Syntax Errors such as missing of semicolon(;), misspelling of keywords and identifiers etc…
+5.	Example Like “out Of Memory Error”, “Stack Overflow Error” etc..,
+
